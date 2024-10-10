@@ -2373,10 +2373,9 @@ marked@^4.3.0:
   resolved "https://registry.yarnpkg.com/marked/-/marked-4.3.0.tgz#796362821b019f734054582038b116481b456cf3"
   integrity sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==
 
-matrix-appservice@^2.0.0:
+"matrix-appservice@github:debdutdeb/matrix-appservice-node#rocket.chat":
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/matrix-appservice/-/matrix-appservice-2.0.0.tgz#74b58e27477b4c1359da7c61878b7d18c6075261"
-  integrity sha512-HCIuJ5i0YuO8b0dMyGe5dqlsE4f3RzHU0MuMg/2gGAZ4HL3r7aSWOFbyIWStSSUrk1qCa9Eml0i4EnEi0pOtdA==
+  resolved "https://codeload.github.com/debdutdeb/matrix-appservice-node/tar.gz/61ec60f10650996fef4d2bf8bd90a9825e242215"
   dependencies:
     body-parser "^1.19.0"
     express "^4.18.1"
