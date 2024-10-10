@@ -781,9 +781,8 @@ export class Bridge {
                 passthrough = await this.eeEventBroker.onASEvent(weakEvent);
             }
             if (passthrough) {
-                return this.onEvent(weakEvent);
+                await this.onEvent(weakEvent);
             }
-            return undefined;
         });
         this.appservice.on("ephemeral", async (event) =>
             this.onEphemeralEvent(event as unknown as EphemeralEvent)
